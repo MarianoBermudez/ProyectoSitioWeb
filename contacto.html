@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Pizzetta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="navbar navbar-expand-lg navbar-dark red absolute">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">La Pizzetta</a>
+        </div>
+    </header>
+
+    <section id="form-contacto" class="bg-light d-flex flex-column justify-content-center align-items-center w-100 h-100">
+        <div class="container">
+            <h2 class="text-center mb-4">Contactanos</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form>
+                        <div class="mb-4">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="name" placeholder="Escribe tu nombre" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="Escribe tu correo" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+                        </div>
+                        <div class="d-grid mb-4">
+                            <button type="submit" class="btn btn-primary red">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid text-center py-5">
+            <h5>Dirección:</h5>
+            <p>Av. Libertador Gral. San Martin Este 183</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6801.247520187453!2d-68.53131616260808!3d-31.53449200432195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96816a8268da2d2f%3A0xbf4f9faaabe0b6eb!2sLa%20Mejor!5e0!3m2!1sen!2sar!4v1727137296266!5m2!1sen!2sar" 
+                width="100%" 
+                height="500" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe><br><br>
+    
+            <div class="d-flex justify-content-center align-items-center">
+                <img src="assets/delivery.png" alt="Delivery" class="me-3" style="width: 3.7rem; height: 3.7rem;">
+                <div class="text-start pt-3">
+                    <h5>Delivery: 264952987</h5>
+                    <p>Horario: 11:00 a 15:00 y 19:00 a 01:00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer id="contacto" class="bg-dark text-white p-3">
+        <div class="d-flex justify-content-center align-items-center pb-4">
+            <a href="https://www.instagram.com/yourprofile" target="_blank" class="me-2">
+                <img src="assets/instagram.svg" alt="Instagram" width="30" height="30" style="filter: invert(100%);">
+            </a>
+            <p class="mb-0">Contacto: lapizzetta@gmail.com</p>
+        </div>
+        <p class="small text-start">Todos los derechos reservados</p>
+        <div class="d-flex justify-content-between small">
+            <p class="small text-decoration-underline">Política de privacidad</p>
+            <p class="small">Copyright © 2024 | Aviso legal</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</body>
+</html>
