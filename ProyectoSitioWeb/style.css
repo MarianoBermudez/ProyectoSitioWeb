@@ -1,0 +1,84 @@
+* {
+    font-size: clamp(14px, 1.2vw, 20px);
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Comfortaa, sans-serif;
+}
+
+#header {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+}
+
+.hero {
+    background-image: url('assets/image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    padding-left: 5vw;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding-left: 0.3rem;
+}
+
+.carousel-item img {
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.small {
+    font-family: Arial, sans-serif;
+    font-size: 0.7rem;
+    padding: 0;
+    margin: 0;
+}
+
+.absolute {
+    position: absolute;
+    width: 100vw;
+}
+
+
+h2 {
+    color: rgb(158, 18, 0);
+}
+
+.red {
+    background-color: rgb(128, 15, 0);
+    border-color: rgb(128, 15, 0);
+}
+
+.btn:hover{
+    background-color: rgb(158, 18, 0);
+    border-color: rgb(158, 18, 0);
+}
+
+.btn:active {
+    background-color: rgb(128, 15, 0) !important;
+    border-color: rgb(128, 15, 0) !important;
+}
+
+hr {
+    height: 3px;
+    background-color: rgb(158, 18, 0);
+    margin: 40px 0;
+}
